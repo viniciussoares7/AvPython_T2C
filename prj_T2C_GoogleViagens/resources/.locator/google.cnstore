@@ -1,0 +1,1246 @@
+{
+	"id": "511b75f3-ea6a-4e76-bbd0-8d41a2673c79",
+	"name": "google",
+	"nodes": [
+		{
+			"id": "3178b58c-53ae-4c8f-bdeb-5c8a9bd44dfe",
+			"name": "passagens",
+			"nodes": [],
+			"locators": [
+				{
+					"id": "115c71e1-d00d-490f-b6c6-beb3372f910a",
+					"name": "valor_passagem",
+					"filePath": "c8c034d7-ee91-42ed-8c6b-1bfd258dd157.jpg",
+					"content": {
+						"automationType": "Chrome",
+						"processName": {
+							"value": "chrome"
+						},
+						"filePath": {
+							"value": "chrome.exe"
+						},
+						"version": {
+							"value": "1.3"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"role": {
+										"value": "window"
+									},
+									"title": {
+										"value": "*Explorar"
+									},
+									"url": {
+										"value": "https://www.google.com/travel/explore?tfs=CBwQAxopEgoyMDI0LTA0LTIwagwIAhIIL20vMGgxbGZyDQgEEgkvbS8wZjhsOWMaKRIKMjAyNC0wNC0yM2oNCAQSCS9tLzBmOGw5Y3IMCAISCC9tLzBoMWxmQAFIAXABggELCP___________wGYAQE&tfu=GgA",
+										"excluded": true
+									},
+									"className": {
+										"value": "Chrome_WidgetWin_1"
+									},
+									"controlMetaType": "Tab"
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"tag": {
+												"value": "DIV"
+											},
+											"class": {
+												"value": "MJg7fb QB2Jof"
+											},
+											"ancestorId": {
+												"value": "yDmH0d"
+											},
+											"ancestorClass": {
+												"value": "sPjWyb",
+												"excluded": true
+											},
+											"isLeaf": {
+												"value": "0",
+												"excluded": true
+											},
+											"cssSelector": {
+												"value": "body>c-wiz>div>div>div>c-wiz>div>div>div>div>main>div>div>div>ol>li>div>div>div>div>div",
+												"excluded": true
+											},
+											"tableRow": {
+												"value": "-1",
+												"excluded": true
+											},
+											"tableCol": {
+												"value": "-1",
+												"excluded": true
+											},
+											"controlMetaType": "Web",
+											"index": {
+												"value": "{{index}}"
+											}
+										},
+										"childControls": [],
+										"excluded": false
+									}
+								],
+								"excluded": false
+							}
+						],
+						"parameters": {
+							"excluded": true,
+							"operator": "equals",
+							"value": ""
+						}
+					}
+				},
+				{
+					"id": "6ad78a3d-54f6-4928-ac45-20ef07f4f722",
+					"name": "nome_cidade",
+					"filePath": "a99c54df-80e3-4406-8295-8eaa5afb024b.jpg",
+					"content": {
+						"automationType": "Chrome",
+						"processName": {
+							"value": "chrome"
+						},
+						"filePath": {
+							"value": "chrome.exe"
+						},
+						"version": {
+							"value": "1.3"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"role": {
+										"value": "window"
+									},
+									"title": {
+										"value": "*Explorar"
+									},
+									"url": {
+										"value": "https://www.google.com/travel/explore?tfs=CBwQAxopEgoyMDI0LTA0LTIwagwIAhIIL20vMGgxbGZyDQgEEgkvbS8wZjhsOWMaKRIKMjAyNC0wNC0yM2oNCAQSCS9tLzBmOGw5Y3IMCAISCC9tLzBoMWxmQAFIAXABggELCP___________wGYAQE&tfu=GgA",
+										"excluded": true
+									},
+									"className": {
+										"value": "Chrome_WidgetWin_1"
+									},
+									"controlMetaType": "Tab"
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"tag": {
+												"value": "H3"
+											},
+											"class": {
+												"value": "W6bZuc YMlIz",
+												"excluded": true
+											},
+											"ancestorId": {
+												"value": "yDmH0d",
+												"excluded": true
+											},
+											"ancestorClass": {
+												"value": "tsAU4e ",
+												"excluded": true
+											},
+											"isLeaf": {
+												"value": "1",
+												"excluded": true
+											},
+											"cssSelector": {
+												"value": "body>c-wiz>div>div>div>c-wiz>div>div>div>div>main>div>div>div>ol>li>div>div>div>h3",
+												"excluded": true
+											},
+											"sInfo": {
+												"value": "",
+												"excluded": true
+											},
+											"tableRow": {
+												"value": "-1",
+												"excluded": true
+											},
+											"tableCol": {
+												"value": "-1",
+												"excluded": true
+											},
+											"controlMetaType": "Web",
+											"index": {
+												"value": "{{index}}"
+											}
+										},
+										"childControls": [],
+										"excluded": false
+									}
+								],
+								"excluded": false
+							}
+						],
+						"parameters": {
+							"excluded": true,
+							"operator": "equals",
+							"value": ""
+						}
+					}
+				}
+			]
+		}
+	],
+	"locators": [
+		{
+			"id": "bca05dc5-aa09-422d-8de1-538e53d7a0e2",
+			"name": "combobox_de_onde",
+			"filePath": "f0b7e8d1-aac5-4a6d-b056-a6168b2efa86.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "*Explorar"
+							},
+							"url": {
+								"value": "https://www.google.com/travel/explore",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "INPUT"
+									},
+									"class": {
+										"value": "II2One j0Ppje zmMKJ LbIaRd",
+										"excluded": true
+									},
+									"type": {
+										"value": "text",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "yDmH0d",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "V00Bye ESCxub KckZb"
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>c-wiz>div>div>div>c-wiz>div>div>div>div>div>section>div>div>div>div>div>div>div>div>div>div>div>div>input",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"value": {
+										"isCustom": true,
+										"value": "Campinas",
+										"operator": "equals",
+										"excluded": true
+									},
+									"jsname": {
+										"isCustom": true,
+										"value": "yrriRe",
+										"operator": "equals",
+										"excluded": true
+									},
+									"jsaction": {
+										"isCustom": true,
+										"value": "focus:h06R8; blur:zjh6rb",
+										"operator": "equals",
+										"excluded": true
+									},
+									"autocomplete": {
+										"isCustom": true,
+										"value": "off",
+										"operator": "equals",
+										"excluded": true
+									},
+									"role": {
+										"isCustom": true,
+										"value": "combobox",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-autocomplete": {
+										"isCustom": true,
+										"value": "inline",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-haspopup": {
+										"isCustom": true,
+										"value": "true",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-expanded": {
+										"isCustom": true,
+										"value": "false",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-label": {
+										"isCustom": true,
+										"value": "De onde?",
+										"operator": "equals",
+										"excluded": true
+									},
+									"jslog": {
+										"isCustom": true,
+										"value": "8582;ved:2ahUKEwik1Zvfm6SFAxU6P7kGHT21CK4QhkN6BAgDEA0;track:click",
+										"operator": "equals",
+										"excluded": true
+									}
+								},
+								"childControls": [],
+								"excluded": false
+							}
+						],
+						"excluded": false
+					}
+				],
+				"parameters": {
+					"excluded": true,
+					"operator": "equals",
+					"value": ""
+				}
+			}
+		},
+		{
+			"id": "e3144413-0f4c-4aa4-b619-b59f9ef17a5b",
+			"name": "combobox_para_onde",
+			"filePath": "60e0c35b-7830-4fa3-8ac1-5eb872b20b53.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "*Explorar"
+							},
+							"url": {
+								"value": "https://www.google.com/travel/explore",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "INPUT"
+									},
+									"class": {
+										"value": "II2One j0Ppje zmMKJ LbIaRd",
+										"excluded": true
+									},
+									"type": {
+										"value": "text",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "yDmH0d",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "V00Bye ESCxub gugWEd"
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>c-wiz>div>div>div>c-wiz>div>div>div>div>div>section>div>div>div>div>div>div>div>div>div>div>div>div>input",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"jsname": {
+										"isCustom": true,
+										"value": "yrriRe",
+										"operator": "equals",
+										"excluded": true
+									},
+									"jsaction": {
+										"isCustom": true,
+										"value": "focus:h06R8; blur:zjh6rb",
+										"operator": "equals",
+										"excluded": true
+									},
+									"autocomplete": {
+										"isCustom": true,
+										"value": "off",
+										"operator": "equals",
+										"excluded": true
+									},
+									"role": {
+										"isCustom": true,
+										"value": "combobox",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-autocomplete": {
+										"isCustom": true,
+										"value": "inline",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-haspopup": {
+										"isCustom": true,
+										"value": "true",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-expanded": {
+										"isCustom": true,
+										"value": "false",
+										"operator": "equals",
+										"excluded": true
+									},
+									"placeholder": {
+										"isCustom": true,
+										"value": "Para onde?",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-label": {
+										"isCustom": true,
+										"value": "Para onde?",
+										"operator": "equals",
+										"excluded": true
+									},
+									"jslog": {
+										"isCustom": true,
+										"value": "8582;ved:2ahUKEwik1Zvfm6SFAxU6P7kGHT21CK4QhkN6BAgDEA8;track:click",
+										"operator": "equals",
+										"excluded": true
+									}
+								},
+								"childControls": [],
+								"excluded": false
+							}
+						],
+						"excluded": false
+					}
+				],
+				"parameters": {
+					"excluded": true,
+					"operator": "equals",
+					"value": ""
+				}
+			}
+		},
+		{
+			"id": "4cd8adcc-4504-471f-bb9e-638af781219d",
+			"name": "data_esp",
+			"filePath": "fc6e0ca5-f58c-43b0-87fa-d7eaca2cb92e.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "*Explorar"
+							},
+							"url": {
+								"value": "https://www.google.com/travel/explore",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "BUTTON"
+									},
+									"id": {
+										"value": "sNlbpb"
+									},
+									"class": {
+										"value": "VfPpkd-AznF2e VfPpkd-AznF2e-OWXEXe-jJNx8e-QBLLGd JJYS0b V0XHEd RURdG",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "ow78",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "VfPpkd-AznF2e-LUERP-bN97Pc",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "0",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>c-wiz>div>div>div>c-wiz>div>div>div>div>div>section>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>span>button",
+										"excluded": true
+									},
+									"sInfo": {
+										"value": "Datas específicas",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tabIndex": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"role": {
+										"isCustom": true,
+										"value": "tab",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-selected": {
+										"isCustom": true,
+										"value": "false",
+										"operator": "equals",
+										"excluded": true
+									},
+									"jscontroller": {
+										"isCustom": true,
+										"value": "t1sulf",
+										"operator": "equals",
+										"excluded": true
+									},
+									"jsaction": {
+										"isCustom": true,
+										"value": "click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseenter:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e;",
+										"operator": "equals",
+										"excluded": true
+									},
+									"data-disable-idom": {
+										"isCustom": true,
+										"value": "true",
+										"operator": "equals",
+										"excluded": true
+									},
+									"data-skip-focus-on-activate": {
+										"isCustom": true,
+										"value": "false",
+										"operator": "equals",
+										"excluded": true
+									}
+								},
+								"childControls": [],
+								"excluded": false
+							}
+						],
+						"excluded": false
+					}
+				],
+				"parameters": {
+					"excluded": true,
+					"operator": "equals",
+					"value": ""
+				}
+			}
+		},
+		{
+			"id": "7aac8e73-f5ca-4d57-bf15-1f94652098d5",
+			"name": "text_partida",
+			"filePath": "0da53ffa-c7ae-4e38-acb8-f417b8bcf33f.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "*Explorar"
+							},
+							"url": {
+								"value": "https://www.google.com/travel/explore",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "INPUT"
+									},
+									"class": {
+										"value": "TP4Lpb eoY5cb j0Ppje",
+										"excluded": true
+									},
+									"type": {
+										"value": "text",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "ow78"
+									},
+									"ancestorClass": {
+										"value": "NA5Egc ESCxub  fXx9Lc cd29Sd wg2eAc"
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>c-wiz>div>div>div>c-wiz>div>div>div>div>div>section>div>div>div>div>div>div>div>div>div>div>div>div>div>span>div>div>div>div>div>input"
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"jsname": {
+										"isCustom": true,
+										"value": "yrriRe",
+										"operator": "equals",
+										"excluded": true
+									},
+									"placeholder": {
+										"isCustom": true,
+										"value": "Partida",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-label": {
+										"isCustom": true,
+										"value": "Partida",
+										"operator": "equals",
+										"excluded": true
+									},
+									"spellcheck": {
+										"isCustom": true,
+										"value": "false",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-describedby": {
+										"isCustom": true,
+										"value": "i26",
+										"operator": "equals",
+										"excluded": true
+									}
+								},
+								"childControls": [],
+								"excluded": false
+							}
+						],
+						"excluded": false
+					}
+				],
+				"parameters": {
+					"excluded": true,
+					"operator": "equals",
+					"value": ""
+				}
+			}
+		},
+		{
+			"id": "5804e407-3d6f-4818-975b-96ca0e665d0e",
+			"name": "text_volta",
+			"filePath": "a8b8eb14-c102-46d0-8549-e5fffa00c3ac.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "*Explorar"
+							},
+							"url": {
+								"value": "https://www.google.com/travel/explore",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "INPUT"
+									},
+									"class": {
+										"value": "TP4Lpb eoY5cb j0Ppje",
+										"excluded": true
+									},
+									"type": {
+										"value": "text",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "ow78"
+									},
+									"ancestorClass": {
+										"value": "NA5Egc ESCxub  fXx9Lc wg2eAc"
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>c-wiz>div>div>div>c-wiz>div>div>div>div>div>section>div>div>div>div>div>div>div>div>div>div>div>div>div>span>div>div>div>div>div>input"
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"jsname": {
+										"isCustom": true,
+										"value": "yrriRe",
+										"operator": "equals",
+										"excluded": true
+									},
+									"placeholder": {
+										"isCustom": true,
+										"value": "Volta",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-label": {
+										"isCustom": true,
+										"value": "Volta",
+										"operator": "equals",
+										"excluded": true
+									},
+									"spellcheck": {
+										"isCustom": true,
+										"value": "false",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-describedby": {
+										"isCustom": true,
+										"value": "i26",
+										"operator": "equals",
+										"excluded": true
+									}
+								},
+								"childControls": [],
+								"excluded": false
+							}
+						],
+						"excluded": false
+					}
+				],
+				"parameters": {
+					"excluded": true,
+					"operator": "equals",
+					"value": ""
+				}
+			}
+		},
+		{
+			"id": "190af13e-1bd1-4cd9-973c-a76b3e1518cb",
+			"name": "span_concluído",
+			"filePath": "1dd0206e-a0ec-4e3a-a7e3-fbf9648855b2.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "*Explorar"
+							},
+							"url": {
+								"value": "https://www.google.com/travel/explore",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "SPAN"
+									},
+									"class": {
+										"value": "VfPpkd-vQzf8d",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "ow78"
+									},
+									"ancestorClass": {
+										"value": "VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ nCP5yc AjY5Oe DuMIQc LQeN7 z18xM Q74FEc",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>c-wiz>div>div>div>c-wiz>div>div>div>div>div>section>div>div>div>div>div>div>div>div>div>div>div>div>button>span",
+										"excluded": true
+									},
+									"sInfo": {
+										"value": "Concluído"
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"jsname": {
+										"isCustom": true,
+										"value": "V67aGc",
+										"operator": "equals",
+										"excluded": true
+									}
+								},
+								"childControls": [],
+								"excluded": false
+							}
+						],
+						"excluded": false
+					}
+				],
+				"parameters": {
+					"excluded": true,
+					"operator": "equals",
+					"value": ""
+				}
+			}
+		},
+		{
+			"id": "fcc56062-d6e7-4281-92a2-fc1114fe0f59",
+			"name": "escolha_data",
+			"filePath": "c0c67787-9c0e-4de7-80b6-d02f9615748b.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "*Explorar"
+							},
+							"url": {
+								"value": "https://www.google.com/travel/explore",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "DIV"
+									},
+									"class": {
+										"value": "Kn4yub ZsBBeb"
+									},
+									"ancestorId": {
+										"value": "yDmH0d"
+									},
+									"ancestorClass": {
+										"value": "uNiB1 iLjaEf",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "0",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>c-wiz>div>div>div>c-wiz>div>div>div>div>div>section>div>div>div>div>div>div>div>div>div>div>div>div>div>div",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tabIndex": {
+										"value": "0"
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"jsname": {
+										"isCustom": true,
+										"value": "S55YWb",
+										"operator": "equals",
+										"excluded": true
+									},
+									"role": {
+										"isCustom": true,
+										"value": "button",
+										"operator": "equals",
+										"excluded": true
+									}
+								},
+								"childControls": [],
+								"excluded": false
+							}
+						],
+						"excluded": false
+					}
+				],
+				"parameters": {
+					"excluded": true,
+					"operator": "equals",
+					"value": ""
+				}
+			}
+		},
+		{
+			"id": "805cb4ac-ac72-4ca3-ba60-49c4ea252717",
+			"name": "div_frança",
+			"filePath": "beb04c0d-9397-4085-9e85-7e48a0401899.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Campinas para qualquer lugar | Explorar"
+							},
+							"url": {
+								"value": "https://www.google.com/travel/explore",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "DIV"
+									},
+									"class": {
+										"value": "zsRT0d",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "c146"
+									},
+									"ancestorClass": {
+										"value": "CwL3Ec",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>c-wiz>div>div>div>c-wiz>div>div>div>div>div>section>div>div>div>div>div>div>div>div>div>div>div>ul>li>div>div>div",
+										"excluded": true
+									},
+									"sInfo": {
+										"value": "",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"jsname": {
+										"isCustom": true,
+										"value": "V1ur5d",
+										"operator": "equals",
+										"excluded": true
+									}
+								},
+								"childControls": [],
+								"excluded": false
+							}
+						],
+						"excluded": false
+					}
+				],
+				"parameters": {
+					"excluded": true,
+					"operator": "equals",
+					"value": ""
+				}
+			}
+		},
+		{
+			"id": "4470d88f-98be-403e-9e47-8cea22db1c7d",
+			"name": "option_frança",
+			"filePath": "b164b4c4-8aa8-4916-a9d6-f979fdbd26cb.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "*Explorar"
+							},
+							"url": {
+								"value": "https://www.google.com/travel/explore?tfs=CBwQAxodagwIAhIIL20vMGgxbGZyDQgEEgkvbS8wZjhsOWMaHWoNCAQSCS9tLzBmOGw5Y3IMCAISCC9tLzBoMWxmQAFIAXACggELCP___________wGYAQE&tfu=GgA",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "DIV"
+									},
+									"class": {
+										"value": "zsRT0d",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "c191",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "CwL3Ec",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>c-wiz>div>div>div>c-wiz>div>div>div>div>div>section>div>div>div>div>div>div>div>div>div>div>div>ul>li>div>div>div",
+										"excluded": true
+									},
+									"sInfo": {
+										"value": "{{pais}}"
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"jsname": {
+										"isCustom": true,
+										"value": "V1ur5d",
+										"operator": "equals",
+										"excluded": true
+									}
+								},
+								"childControls": [],
+								"excluded": false
+							}
+						],
+						"excluded": false
+					}
+				],
+				"parameters": {
+					"excluded": true,
+					"operator": "equals",
+					"value": ""
+				}
+			}
+		}
+	]
+}
